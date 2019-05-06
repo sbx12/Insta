@@ -79,6 +79,8 @@ public class PostsFragment extends Fragment {
                 mPosts.addAll(posts);
                 adapter.notifyDataSetChanged();
 
+
+
                 for(int i = 0; i < posts.size(); i++){
                     Post post = posts.get(i);
                     Log.d("Post", post.getDescription() + " " + post.getUser().getUsername());
